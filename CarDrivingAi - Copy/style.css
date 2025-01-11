@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+    background-color: darkgray;
+    overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#verticalButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 7px 5px;
+    margin: 5px 3px 5px 3px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color .2s ease 0s;
+}
+button:hover{
+    background-color: blue;
+}
+#carCanvas{
+    background-color: lightgrey;
+}
+#networkCanvas{
+    background-color: rgb(45, 45, 45);
+}
+
+#infoCanvas{
+    background-color: rgb(158, 158, 158);
+   margin-right: 15px;
+    
+}
